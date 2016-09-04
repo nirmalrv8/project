@@ -1,0 +1,288 @@
+@font-face{
+	font-family:"apple";
+	src:url('fonts/myriad-set-pro_thin.ttf') format("truetype");
+}
+
+
+.all{
+	width:1340px;
+	height:1000px;
+}
+
+.upper{
+	width:1340px;
+	height:150px;
+}
+
+.logo{
+	width:250px;
+	height:150px;
+	float:left;
+	margin-left:150px;
+}
+
+.nav{
+	width:850px;
+	height:150px;
+	float:left;
+	margin-left:-100px;
+	margin-top:20px;
+	
+}
+
+.cartIcon{
+	width:50px;
+	height:150px;
+	float:left;
+	margin-top:-80px;
+}
+
+.quantity{
+	margin-top:-27px;
+	margin-left:11px;
+	font-family:"apple";
+	font-weight:bold;
+	color:white;
+}
+
+.middle{
+	width:1340px;
+	height:1800px;
+}
+
+.slider{
+	width:1340px;
+	height:700px;
+}
+
+.bottom{
+	width:1340px;
+	height:150px;
+}
+
+#logo1{
+	height:60px;
+	width:auto;
+}
+
+#logo2{
+	height:60px;
+	width:auto;
+	margin-left:35px;
+}
+
+.nav a{
+	text-decoration:none;
+	font-size:28px;
+	padding:20px;
+	font-family:"apple";
+	color:grey;
+}
+
+ a:active{
+	color:red;
+}
+
+ a:hover{
+	color:#78D872;
+}
+
+.nav ul{
+	list-style-type:none;
+	
+}
+
+.nav li{
+	display:inline;
+	
+}
+
+.cartPath{
+	fill:#D3FF3B;
+}
+
+.slider img{
+	width:1340px;
+	height:700px;
+}
+
+.articles p{
+	font-family:apple;
+	font-weight:bold;
+	color:grey;
+	font-size:20px;
+	line-height: 120%;
+	text-align: justify;
+	
+}
+/*article one*/
+#m1{
+	width:540px;
+	height:240px;
+}
+
+#p1{
+	width:430px;
+	
+}
+
+.one{
+	margin-left:100px;
+	margin-top:80px;
+	width:450px;
+	float:left;
+}
+
+#m2{
+	height:100px;
+	width:100px;
+	float:right;
+	margin-right:-100px;
+	margin-top:15px;
+}
+
+/*article two*/
+#m3{
+	width:540px;
+	height:240px;
+}
+
+#p2{
+	width:430px;
+	
+}
+
+.two{
+	margin-left:200px;
+	margin-top:80px;
+	width:450px;
+	float:left;
+}
+
+#m4{
+	height:100px;
+	width:150px;
+	float:right;
+	margin-right:-100px;
+	margin-left:10px;
+	margin-top:15px;
+}
+
+/*article three*/
+#m5{
+	width:540px;
+	height:240px;
+}
+
+#p3{
+	width:520px;
+	
+}
+
+.three{
+	margin-left:100px;
+	margin-top:40px;
+	width:450px;
+	float:left;
+}
+
+/*article four*/
+#m6{
+	width:540px;
+	height:240px;
+}
+
+#p4{
+	width:520px;
+	
+}
+
+.four{
+	margin-left:200px;
+	margin-top:40px;
+	width:450px;
+	float:left;
+}
+
+.logos{
+	float:left;
+	margin-top:30px;
+	margin-left:-450px;
+	
+}
+
+#r0{
+	width:100px;
+	height:100px;
+	
+}
+
+#r1{
+	padding-left:40px;
+	width:220px;
+	height:100px;
+	
+}
+
+#r2{
+	padding-left:20px;
+	width:210px;
+	height:100px;
+}
+
+#r3{
+	padding-left:40px;
+	width:120px;
+	height:120px;
+}
+
+#r4{
+	padding-left:40px;
+	width:140px;
+	height:140px;
+}
+
+#r5{
+	padding-left:40px;
+	width:160px;
+	height:130px;
+}
+
+.footer p{
+	
+	font-family:apple;
+	font-weight:bold;
+	color:grey;
+	font-size:20px;
+	line-height: 120%;
+	text-align: justify;
+}
+
+.footer{
+	float:left;
+	margin-left:630px;
+	margin-top:-60px;
+}
+
+input[type=text] {
+	font-family:apple;
+	font-weight:bold;
+	color:grey;
+	margin-left:60px;
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-image: url('kk.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 60%;
+}
